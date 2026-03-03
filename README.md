@@ -142,13 +142,13 @@ Versão demonstrável do sistema
 
 ## ⚠️ Mapeamento de Riscos
 
-| Risco                         | Responsável     | Plano de Mitigação                                   |
-|------------------------------|-----------------|------------------------------------------------------|
-| Atraso no desenvolvimento    | Scrum Masters   | Acompanhamento semanal e redistribuição de tarefas   |
-| Problemas técnicos           | Front End       | Testes contínuos e revisão de código                 |
-| Falta de alinhamento visual  | Scrum Masters   | Padronização de design e revisão no Figma            |
-| Falta de tempo para slides   | Product Owner   | Início antecipado da apresentação                    |
-| Dificuldade na integração    | Front End       | Integrações incrementais e testes frequentes         |
+| 🚨 Risco | 👤 Responsável | 🛠️ Plano de Mitigação |
+|---------|----------------|------------------------|
+| Atraso no desenvolvimento | ![Scrum Masters](https://img.shields.io/badge/Scrum-Masters-blue) | Acompanhamento semanal e redistribuição de tarefas |
+| Problemas técnicos | ![Front End](https://img.shields.io/badge/Front--End-green) | Testes contínuos e revisão de código |
+| Falta de alinhamento visual | ![Scrum Masters](https://img.shields.io/badge/Scrum-Masters-blue) | Padronização de design e revisão no Figma |
+| Falta de tempo para slides | ![Product Owner](https://img.shields.io/badge/Product-Owner-orange) | Início antecipado da apresentação |
+| Dificuldade na integração | ![Front End](https://img.shields.io/badge/Front--End-green) | Integrações incrementais e testes frequentes |
 
 ✅ Checklist de Qualidade (Definition of Done)
 
