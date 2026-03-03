@@ -6,16 +6,16 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 
 | Nome | Função | Identificação |
 | :--- | :--- | :--- |
-| **Ewerton Guilherme** | Product Owner & Front End | 🔵 Liderança/Dev |
-| **Emily Marques** | Scrum Master | 🟢 Agilidade |
-| **Vitória Gabrielly** | Scrum Master | 🟢 Agilidade |
-| **Thiago Cardozo** | Scrum Master | 🟢 Agilidade |
-| **Mateus Valerino** | Front End | 💻 Desenvolvimento |
-| **Saulo Eduardo** | Front End | 💻 Desenvolvimento |
-| **Davi Magno** | Front End | 💻 Desenvolvimento |
-| **Wesley Yuri** | Front End | 💻 Desenvolvimento |
-| **Vinicius Wagner** | Front End | 💻 Desenvolvimento |
-| **Pablo Arthur** | Testador de QA | 🟠 Qualidade |
+| Ewerton Guilherme | Product Owner & Front End | 🔵💻 Liderança/Desenvolvimento |
+| Emily Marques | Scrum Master | 🟢 Agilidade |
+| Vitória Gabrielly | Scrum Master | 🟢 Agilidade |
+| Thiago Cardozo | Scrum Master | 🟢 Agilidade |
+| Mateus Valerino | Front End | 💻 Desenvolvimento |
+| Saulo Eduardo | Front End | 💻 Desenvolvimento |
+| Davi Magno | Front End | 💻 Desenvolvimento |
+| Wesley Yuri | Front End | 💻 Desenvolvimento |
+| Vinicius Wagner | Front End | 💻 Desenvolvimento |
+| Pablo Arthur | Testador de QA | 🟠 Qualidade |
 
 
 
