@@ -1,28 +1,23 @@
-📌 DuoConecta
+📌 **DuoConecta**
 
 Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relatórios, desenvolvido com metodologia ágil e gerenciamento visual de tarefas.
 
 👥 Membros da Equipe
 
-Ewerton Guilherme — Product Owner & Front End
+| Nome | Função | Identificação |
+| :--- | :--- | :--- |
+| **Ewerton Guilherme** | Product Owner & Front End | 🔵 Liderança/Dev |
+| **Emily Marques** | Scrum Master | 🟢 Agilidade |
+| **Vitória Gabrielly** | Scrum Master | 🟢 Agilidade |
+| **Thiago Cardozo** | Scrum Master | 🟢 Agilidade |
+| **Mateus Valerino** | Front End | 💻 Desenvolvimento |
+| **Saulo Eduardo** | Front End | 💻 Desenvolvimento |
+| **Davi Magno** | Front End | 💻 Desenvolvimento |
+| **Wesley Yuri** | Front End | 💻 Desenvolvimento |
+| **Vinicius Wagner** | Front End | 💻 Desenvolvimento |
+| **Pablo Arthur** | Testador de QA | 🟠 Qualidade |
 
-Emily Marques — Scrum Master
 
-Mateus Valerino — Front End
-
-Pablo Arthur — Testador de QA
-
-Saulo Eduardo — Front End
-
-Davi Magno — Front End
-
-Vitória Gabrielly — Scrum Master
-
-Thiago Cardozo — Scrum Master
-
-Wesley Yuri — Front End
-
-Vinicius Wagner — Front End
 
 🎯 Papéis e Responsabilidades
 🧭 Product Owner & Front End
