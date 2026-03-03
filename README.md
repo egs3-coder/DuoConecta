@@ -140,13 +140,16 @@ Preparação da apresentação
 
 Versão demonstrável do sistema
 
-⚠️ Mapeamento de Riscos
-Risco	Responsável	Plano de Mitigação
-Atraso no desenvolvimento	Scrum Masters	Acompanhamento semanal e redistribuição de tarefas
-Problemas técnicos	Front End	Testes contínuos e revisão de código
-Falta de alinhamento visual	Scrum Masters	Padronização de design e revisão no Figma
-Falta de tempo para slides	Product Owner	Início antecipado da apresentação
-Dificuldade na integração	Front End	Integrações incrementais e testes frequentes
+## ⚠️ Mapeamento de Riscos
+
+| Risco                         | Responsável     | Plano de Mitigação                                   |
+|------------------------------|-----------------|------------------------------------------------------|
+| Atraso no desenvolvimento    | Scrum Masters   | Acompanhamento semanal e redistribuição de tarefas   |
+| Problemas técnicos           | Front End       | Testes contínuos e revisão de código                 |
+| Falta de alinhamento visual  | Scrum Masters   | Padronização de design e revisão no Figma            |
+| Falta de tempo para slides   | Product Owner   | Início antecipado da apresentação                    |
+| Dificuldade na integração    | Front End       | Integrações incrementais e testes frequentes         |
+
 ✅ Checklist de Qualidade (Definition of Done)
 
 Para que uma entrega seja considerada pronta, deve atender a:
