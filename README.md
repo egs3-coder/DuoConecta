@@ -1,8 +1,8 @@
-📌 **DuoConecta**
+📌  **DuoConecta**
 
 Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relatórios, desenvolvido com metodologia ágil e gerenciamento visual de tarefas.
 
-👥 Membros da Equipe
+👥 **Membros da Equipe**
 
 | Nome | Função | Identificação |
 | :--- | :--- | :--- |
@@ -19,7 +19,7 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 
 
 
-🎯 Papéis e Responsabilidades
+🎯 **Papéis e Responsabilidades**
 🧭 Product Owner & Front End
 
 Ewerton Guilherme
