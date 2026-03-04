@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trilhas de Aprendizagem</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Variáveis de Cores */
+      :root {
+        --bg-main: #06040a;
+        --bg-card: #1c1528;
+        --bg-card-hover: #261d36;
+        --bg-thumb: #4a3b69;
+        --text-primary: #ffffff;
+        --text-secondary: #a39eb5;
+        --title-cyan: #38bdf8;
+        --gradient-progress: linear-gradient(90deg, #ff007a, #8a2be2);
+        --star-color: #a39eb5;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+      }
+
+      body {
+        background-color: var(--bg-main);
+        color: var(--text-primary);
+        min-height: 100vh;
+      }
+      button {
+        background: #e6e6e6;
+        margin: 10px;
+        color: #111;
+        border: none;
+        padding: 18px 50px;
+        border-radius: 14px;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      button:hover {
+        background: white;
+        transform: translateY(-2px);
+      }
+      a:active {
+        color: black;
+      }
+      /* Container Principal mais largo ("mais pros lados") */
+      .main-container {
+        max-width: 1600px; /* Largura estendida para monitores grandes */
+        width: 95%; /* Ocupa 95% da tela para não encostar totalmente nas bordas */
+        margin: 0 auto;
+        padding: 50px 0;
+      }
+
+      header {
+        margin-bottom: 50px;
+      }
+
+      header h1 {
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      section {
+        margin-bottom: 50px;
+      }
+
+      .section-title {
+        color: var(--title-cyan);
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      /* Grid Inteligente e Mais Largo */
+      .card-grid {
+        display: grid;
+        /* Cards agora têm no mínimo 420px, forçando-os a esticar mais horizontalmente */
+        grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+        gap: 25px;
+      }
+
+      /* Estilos dos Cards */
+      .card {
+        background-color: var(--bg-card);
+        border-radius: 12px;
+        padding: 24px; /* Mais preenchimento interno */
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition:
+          background 0.2s ease,
+          transform 0.2s ease;
+      }
+
+      .card:hover {
+        background-color: var(--bg-card-hover);
+        transform: translateY(-3px);
+      }
+
+      /* Miniatura Roxa */
+      .card-thumb {
+        min-width: 85px;
+        height: 85px;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-right: 25px;
+      }
+
+      .card-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .card-thumb {
+        min-width: 85px;
+        height: 85px;
+        background-color: var(--bg-thumb);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-primary);
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 25px;
+      }
+
+      .card-info {
+        flex: 1;
+      }
+
+      .card-title {
+        color: var(--text-primary);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 18px;
+      }
+
+      /* Progresso */
+      .progress-header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        color: var(--text-secondary);
+        margin-bottom: 8px;
+      }
+
+      .progress-bar-bg {
+        width: 100%;
+        height: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+        overflow: hidden;
+      }
+
+      .progress-bar-fill {
+        height: 100%;
+        background: var(--gradient-progress);
+        border-radius: 3px;
+      }
+
+      /* Avaliação (Rating) */
+      .rating-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        color: var(--text-secondary);
+      }
+
+      .stars {
+        color: var(--star-color);
+        letter-spacing: 2px;
+      }
+
+      /* Responsividade para não quebrar em telas pequenas */
+      @media (max-width: 768px) {
+        .card-grid {
+          grid-template-columns: 1fr;
+        }
+        .main-container {
+          width: 90%;
+        }
+      }
+      .seta {
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+      <header>
+        <h1>Trilhas de Aprendizagem</h1>
+      </header>
+
+      <section>
+        <h2 class="section-title">Minhas Trilhas em Andamento</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Como implementar metodologias inclusiva na sala de aula
+              </h3>
+              <div class="progress-header">
+                <span>Progresso Geral</span>
+                <span>64% Concluído</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 64%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Estratégias de Comunicação Visual</h3>
+              <div class="progress-header">
+                <span>Progresso Geral</span>
+                <span>32% Concluído</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 32%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Trilhas Básicas</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Introdução à Acessibilidade Digital</h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,80 <span class="stars">★★★★★</span> (512)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Fundamentos da Educação Inclusiva</h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,65 <span class="stars">★★★★★</span> (420)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Comunicação Visual Básica</h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,38 <span class="stars">★★★★★</span> (358)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Trilhas Intermediárias</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Design Universal para Aprendizagem (DUA)
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,90 <span class="stars">★★★★★</span> (215)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Criação de Materiais Didáticos Acessíveis
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,75 <span class="stars">★★★★★</span> (189)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Estratégias de Comunicação Visual Intermediária
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,50 <span class="stars">★★★★★</span> (240)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Trilhas Avançadas</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Gestão de Políticas de Inclusão Escolar
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,95 <span class="stars">★★★★★</span> (85)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Auditoria e Laudos de Acessibilidade Digital
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,88 <span class="stars">★★★★★</span> (112)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Conheça Novas Trilhas</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Tecnologias Assistivas na Prática</h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,70 <span class="stars">★★★★★</span> (95)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Libras: Sinais e Expressões do Dia a Dia
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,92 <span class="stars">★★★★★</span> (630)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-thumb">
+              <img
+                src="./imgs/criancas-de-tiro-medio-desenhando-juntas_23-2149199889.png"
+                alt="Crianças desenhando"
+              />
+              <a href="./plataforma.html">
+                <i class="bx bx-right-arrow-alt seta"></i>
+              </a>
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">
+                Psicologia da Aprendizagem na Diversidade
+              </h3>
+              <div class="rating-info">
+                <span>Toque para iniciar!</span>
+                <span>4,60 <span class="stars">★★★★★</span> (150)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a href="./home.html" style="text-decoration: none">Voltar</a>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
