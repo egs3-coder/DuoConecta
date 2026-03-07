@@ -74,9 +74,9 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 | 5 | Conteúdo coerente e organizado |
 | 6 | Equipe preparada para apresentar |
 
-🎨 Protótipo Funcional (Figma)
+## 🎨 Protótipo Funcional (Figma)
 
-🔗 Adicione aqui o link do Figma
+🔗 https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662
 
 Telas essenciais
 
@@ -92,22 +92,3 @@ Microconteúdos
 
 Comunidade
 
-Relatórios do professor
-
-🚀 Status do Projeto
-
-🟡 Em desenvolvimento
-
-🛠️ Tecnologias Utilizadas
-
-(edite conforme seu projeto)
-
-HTML
-
-CSS
-
-JavaScript
-
-Figma
-
-Trello
