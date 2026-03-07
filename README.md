@@ -43,34 +43,13 @@ Protótipo funcional
 
 Tarefas individuais por membro
 
-📅 Planejamento Semanal
-✅ Semana 1 — Organização e Refinamento
+## Planejamento Semanal
 
-Definição inicial das telas
-
-Refinamento do escopo
-
-Padronização visual inicial
-
-🚧 Semana 2 — Desenvolvimento Principal
-
-Implementação das telas
-
-Estruturação da navegação
-
-Aplicação de estilos
-
-Testes iniciais
-
-🎯 Semana 3 — Finalização e Preparação
-
-Ajustes finais
-
-Correção de bugs
-
-Preparação da apresentação
-
-Versão demonstrável do sistema
+| Semana | Foco | Atividades |
+|---|---|---|
+| 📅 **Semana 1** | **Organização e Refinamento** | • Definição inicial das telas<br>• Refinamento do escopo<br>• Padronização visual inicial |
+| 🚧 **Semana 2** | **Desenvolvimento Principal** | • Implementação das telas<br>• Estruturação da navegação<br>• Aplicação de estilos<br>• Testes iniciais |
+| 🎯 **Semana 3** | **Finalização e Preparação** | • Ajustes finais<br>• Correção de bugs<br>• Preparação da apresentação<br>• Versão demonstrável do sistema |
 
 ## ⚠️ Mapeamento de Riscos
 
