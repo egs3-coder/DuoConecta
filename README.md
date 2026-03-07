@@ -20,76 +20,14 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 
 
 🎯 **Papéis e Responsabilidades**
-🧭 Product Owner & Front End
+## Equipe e Responsabilidades
 
-Ewerton Guilherme
-
-Implementação das telas principais do sistema
-
-Estruturação da navegação entre páginas
-
-Aplicação de estilos visuais conforme o protótipo
-
-Garantia de funcionamento básico da interface
-
-Preparação da versão demonstrável
-
-Estruturação da apresentação final
-
-Organização do conteúdo do projeto
-
-🔄 Scrum Masters
-
-Emily Marques, Vitória Gabrielly, Thiago Cardozo
-
-Responsáveis por:
-
-Organização e refinamento das telas
-
-Padronização visual (cores, tipografia, componentes)
-
-Definição da navegação entre telas
-
-Produção do protótipo navegável
-
-Apoio ao front-end com especificações visuais
-
-Estruturação da apresentação final
-
-Organização do conteúdo do projeto
-
-💻 Front End
-
-Mateus Valerino, Saulo Eduardo, Davi Magno, Wesley Yuri, Vinicius Wagner
-
-Responsáveis por:
-
-Implementação das telas principais
-
-Estruturação da navegação
-
-Aplicação de estilos conforme protótipo
-
-Garantia de funcionamento básico
-
-Preparação da versão demonstrável
-
-🧪 QA
-
-Pablo Arthur
-
-Responsável por:
-
-Criação de planos de teste
-
-Verificação de responsividade
-
-Identificação e documentação de bugs
-
-Validação do que foi planejado
-
-Testes de segurança básica
-
+| Área / Função | Integrantes | Responsabilidades |
+|---|---|---|
+| 🧭 **Product Owner & Front End** | **Ewerton Guilherme** | Implementação das telas principais do sistema; Estruturação da navegação entre páginas; Aplicação de estilos visuais conforme o protótipo; Garantia de funcionamento básico da interface; Preparação da versão demonstrável; Estruturação da apresentação final; Organização do conteúdo do projeto |
+| 🔄 **Scrum Masters** | **Emily Marques, Vitória Gabrielly, Thiago Cardozo** | Organização e refinamento das telas; Padronização visual (cores, tipografia, componentes); Definição da navegação entre telas; Produção do protótipo navegável; Apoio ao front-end com especificações visuais; Estruturação da apresentação final; Organização do conteúdo do projeto |
+| 💻 **Front End** | **Mateus Valerino, Saulo Eduardo, Davi Magno, Wesley Yuri, Vinicius Wagner** | Implementação das telas principais; Estruturação da navegação; Aplicação de estilos conforme protótipo; Garantia de funcionamento básico; Preparação da versão demonstrável |
+| 🧪 **QA** | **Pablo Arthur** | Criação de planos de teste; Verificação de responsividade; Identificação e documentação de bugs; Validação do que foi planejado; Testes de segurança básica |
 📋 Quadro de Gerenciamento (Trello)
 
 🔗 Adicione aqui o link do seu Trello
