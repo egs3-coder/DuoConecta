@@ -37,11 +37,11 @@ O quadro está organizado por responsáveis e áreas do projeto, contendo:
 
 - Mapeamento de riscos
 
-Checklist de qualidade
+- Checklist de qualidade
 
-Protótipo funcional
+- Protótipo funcional
 
-Tarefas individuais por membro
+- Tarefas individuais por membro
 
 ## Planejamento Semanal
 
