@@ -28,9 +28,11 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 | 🔄 **Scrum Masters** | **Emily Marques, Vitória Gabrielly, Thiago Cardozo** | Organização e refinamento das telas; Padronização visual (cores, tipografia, componentes); Definição da navegação entre telas; Produção do protótipo navegável; Apoio ao front-end com especificações visuais; Estruturação da apresentação final; Organização do conteúdo do projeto |
 | 💻 **Front End** | **Mateus Valerino, Saulo Eduardo, Davi Magno, Wesley Yuri, Vinicius Wagner** | Implementação das telas principais; Estruturação da navegação; Aplicação de estilos conforme protótipo; Garantia de funcionamento básico; Preparação da versão demonstrável |
 | 🧪 **QA** | **Pablo Arthur** | Criação de planos de teste; Verificação de responsividade; Identificação e documentação de bugs; Validação do que foi planejado; Testes de segurança básica |
+
+
 📋 Quadro de Gerenciamento (Trello)
 
-🔗 Adicione aqui o link do seu Trello
+🔗 https://trello.com/b/V4VTZUBU/duoconecta
 
 O quadro está organizado por responsáveis e áreas do projeto, contendo:
 
