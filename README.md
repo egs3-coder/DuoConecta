@@ -76,7 +76,7 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 
 ## 🎨 Protótipo Funcional (Figma)
 
-🔗 [Figma]([https://www.figma.com/](https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
+🔗 [Figma]((https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
 Telas essenciais
 
 Splash (Tela de abertura)
