@@ -61,21 +61,18 @@ O quadro está organizado por responsáveis e áreas do projeto, contendo:
 | Falta de tempo para slides | ![Product Owner](https://img.shields.io/badge/Product-Owner-orange) | Início antecipado da apresentação |
 | Dificuldade na integração | ![Front End](https://img.shields.io/badge/Front--End-green) | Integrações incrementais e testes frequentes |
 
-✅ Checklist de Qualidade (Definition of Done)
+## ✅ Checklist de Qualidade (Definition of Done)
 
-Para que uma entrega seja considerada pronta, deve atender a:
+Para que uma entrega seja considerada pronta, ela deve atender aos seguintes critérios:
 
-✔️ Protótipo navegável no Figma
-
-✔️ Principais telas implementadas no front-end
-
-✔️ Navegação básica funcional
-
-✔️ Slides completos e revisados
-
-✔️ Conteúdo coerente e organizado
-
-✔️ Equipe preparada para apresentar
+| Nº | Critério |
+|---|---|
+| 1 | Protótipo navegável no Figma |
+| 2 | Principais telas implementadas no front-end |
+| 3 | Navegação básica funcional |
+| 4 | Slides completos e revisados |
+| 5 | Conteúdo coerente e organizado |
+| 6 | Equipe preparada para apresentar |
 
 🎨 Protótipo Funcional (Figma)
 
