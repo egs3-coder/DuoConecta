@@ -33,9 +33,9 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 
 O quadro está organizado por responsáveis e áreas do projeto, contendo:
 
-Planejamento semanal
+-Planejamento semanal
 
-Mapeamento de riscos
+-Mapeamento de riscos
 
 Checklist de qualidade
 
