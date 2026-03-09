@@ -79,7 +79,7 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 🔗 [Figma]((https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
 Telas essenciais
 
-## Fluxograma de Navegação
+## Fluxograma das Telas
 
 ```mermaid
 flowchart TD
