@@ -29,7 +29,7 @@ Sistema educacional com foco em trilhas de aprendizagem, microconteúdos e relat
 
 ## 📋 Quadro de Gerenciamento (Trello)
 
-🔗 https://trello.com/b/V4VTZUBU/duoconecta
+🔗 [Trello](https://trello.com/b/V4VTZUBU/duoconecta)
 
 O quadro está organizado por responsáveis e áreas do projeto, contendo:
 
