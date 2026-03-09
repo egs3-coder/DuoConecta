@@ -79,6 +79,25 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 🔗 [Figma]((https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
 Telas essenciais
 
+## Tecnologias Utilizadas
+
+### Trello
+Utilizado para a organização das tarefas, planejamento das etapas do projeto e acompanhamento do desenvolvimento.
+
+### Figma
+Utilizado para a criação do protótipo, definição do layout e planejamento visual da interface.
+
+### HTML
+Utilizado para estruturar o conteúdo das páginas da aplicação.
+
+### CSS
+Utilizado para estilizar a interface, definir cores, espaçamentos, fontes e layout das telas.
+
+### JavaScript
+Utilizado para adicionar interatividade, comportamentos dinâmicos e funcionalidades à aplicação.
+
+
+
 ## Fluxograma das Telas
 
 ```mermaid
@@ -106,21 +125,4 @@ flowchart TD
     A --> N[Explorar Novas Trilhas]
     N --> O[Catálogo de Trilhas]
     O --> J
-
-## Tecnologias Utilizadas
-
-### Trello
-Utilizado para a organização das tarefas, planejamento das etapas do projeto e acompanhamento do desenvolvimento.
-
-### Figma
-Utilizado para a criação do protótipo, definição do layout e planejamento visual da interface.
-
-### HTML
-Utilizado para estruturar o conteúdo das páginas da aplicação.
-
-### CSS
-Utilizado para estilizar a interface, definir cores, espaçamentos, fontes e layout das telas.
-
-### JavaScript
-Utilizado para adicionar interatividade, comportamentos dinâmicos e funcionalidades à aplicação.
 
