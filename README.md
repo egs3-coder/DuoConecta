@@ -107,3 +107,20 @@ flowchart TD
     N --> O[Catálogo de Trilhas]
     O --> J
 
+## Tecnologias Utilizadas
+
+### Trello
+Utilizado para a organização das tarefas, planejamento das etapas do projeto e acompanhamento do desenvolvimento.
+
+### Figma
+Utilizado para a criação do protótipo, definição do layout e planejamento visual da interface.
+
+### HTML
+Utilizado para estruturar o conteúdo das páginas da aplicação.
+
+### CSS
+Utilizado para estilizar a interface, definir cores, espaçamentos, fontes e layout das telas.
+
+### JavaScript
+Utilizado para adicionar interatividade, comportamentos dinâmicos e funcionalidades à aplicação.
+
