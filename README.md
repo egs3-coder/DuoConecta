@@ -79,15 +79,31 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 🔗 [Figma]((https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
 Telas essenciais
 
-Splash (Tela de abertura)
+## Fluxograma de Navegação
 
-Login/Cadastro
-
-Home (Tela inicial)
-
-Trilhas de aprendizagem
-
-Microconteúdos
-
-Comunidade
+```mermaid
+flowchart TD
+    A[Dashboard / Tela Inicial]
+    A --> B[Perfil]
+    A --> C[Favoritos]
+    A --> D[Brincadeiras]
+    A --> E[Relatório Professor]
+    A --> F[Notificações]
+    A --> G[Aulas Baixadas]
+    A --> H[Configurações]
+    A --> I[Continuar Assistindo]
+    I --> I1[Metodologias Inclusivas]
+    I --> I2[Educação Especial]
+    I --> I3[Ensino Adaptado]
+    I --> I4[Inclusão na Prática]
+    I1 --> J[Detalhes da Trilha]
+    I2 --> J
+    I3 --> J
+    I4 --> J
+    J --> K[Assistir Aula]
+    J --> L[Ver Progresso]
+    J --> M[Retomar Conteúdo]
+    A --> N[Explorar Novas Trilhas]
+    N --> O[Catálogo de Trilhas]
+    O --> J
 
