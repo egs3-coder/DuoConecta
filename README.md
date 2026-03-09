@@ -76,10 +76,9 @@ Para que uma entrega seja considerada pronta, ela deve atender aos seguintes cri
 
 ## 🎨 Protótipo Funcional (Figma)
 
-🔗 [Figma]((https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
-Telas essenciais
+🔗 [Figma](https://www.figma.com/files/team/1570905126895089086/project/497663066/Projeto-de-equipe?fuid=1554662447686071662)
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 ### Trello
 Utilizado para a organização das tarefas, planejamento das etapas do projeto e acompanhamento do desenvolvimento.
@@ -96,9 +95,7 @@ Utilizado para estilizar a interface, definir cores, espaçamentos, fontes e lay
 ### JavaScript
 Utilizado para adicionar interatividade, comportamentos dinâmicos e funcionalidades à aplicação.
 
-
-
-## Fluxograma das Telas
+## 🗂️ Fluxograma das Telas
 
 ```mermaid
 flowchart TD
